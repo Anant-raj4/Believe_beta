@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'believe_beta.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Believe_beta',
         'USER': 'root',
         'PASSWORD': 'Welcome@2020',
